@@ -1,5 +1,5 @@
 # Demo
-[![](../assets/bluetooth_page_turner.png)](https://youtu.be/O8mT8mnb_vA)
+[![](../assets/bluetooth_page_turner.png)](https://youtube.com/shorts/ipNxLYZLzUw)
 
 # Step 0: Pre-requisites
 - A jailbroken Kindle
@@ -59,6 +59,7 @@
 	- Copy the text from [this](./karabiner-elements.json) JSON file and modify the `to: [{"key_code": "...", "modifiers": ["...", "..."]}]` accordingly > Paste the text in the textbox > Click the `Save` button
 	- To check that the buttons are properly remapped, launch the `Karabiner-EventViewer` app and press the buttons to see the updated key codes
 
-# Limitations
+# Limitations/Considerations
+- Wifi needs to be turned on in order use this configuration, so the battery of the Kindle will drain slightly faster
 - The Kindle will go to sleep after a configured time if it hasn't registered a touch input
 - These steps are limited to those in the Apple ecosystem. Alternatives to the `Shortcuts` app is necessary for those with Android devices
