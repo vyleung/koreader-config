@@ -53,10 +53,10 @@
 	- When it's trying to connect, the light will flash and when it's successfully connected, the light will stop flashing
 	- The controller should appear as `KeyBoard` - you can rename it to anything (e.g., `LinYuvo (Keyboard)`)
 - Download and launch the [Karabiner-Elements](https://karabiner-elements.pqrs.org) app on your Mac (it's free and open-source)
-	- After giving the app with the necessary permissions, select the `Devices` tab on the left sidebar. You should see `LinYuvo (Keyboard) (No manufacturer name)` as a device > Toggle on `Modify events`
+	- After giving the app with the necessary permissions, select the `Devices` tab on the left sidebar. You should see `LinYuvo (Keyboard) (No manufacturer name)` as a device > Toggle on `Modify events` > Identify the `product_id` and `vendor_id` of the controller
 - Remap the buttons on the controller using `Karabiner-Elements`
 	- Select the `Complex Modifications` tab > click the `Add your own rule` button > Delete all the pre-filled text
-	- Copy the text from [this](./karabiner-elements.json) JSON file and modify the `to: [{"key_code": "...", "modifiers": ["...", "..."]}]` accordingly > Paste the text in the textbox > Click the `Save` button
+	- Copy the text from [this](./karabiner-elements.json) JSON file and modify the `to: [{"key_code": "...", "modifiers": ["...", "..."]}]` as well as the `product_id` and `vendor_id` of the controller accordingly > Paste the text in the textbox > Click the `Save` button
 	- To check that the buttons are properly remapped, launch the `Karabiner-EventViewer` app and press the buttons to see the updated key codes
 
 # Limitations/Considerations
