@@ -1,0 +1,1 @@
+My configurations for Koreader on my Kindle (currently using the Kindle Voyage)
